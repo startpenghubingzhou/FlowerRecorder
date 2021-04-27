@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1C82637403C0001CAF1 /* AppDelegate.swift */; };
+		02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CA2637403D0001CAF1 /* Assets.xcassets */; };
+		02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CC2637403D0001CAF1 /* MainMenu.xib */; };
+		02A6B1DA2637403E0001CAF1 /* FlowerRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1D92637403E0001CAF1 /* FlowerRecorderTests.swift */; };
+		02A6B1E52637403E0001CAF1 /* FlowerRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1E42637403E0001CAF1 /* FlowerRecorderUITests.swift */; };
+		02A6B24A263769E60001CAF1 /* libexport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B249263769E60001CAF1 /* libexport.mm */; };
+		02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		02A6B267263792890001CAF1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A6B1D62637403E0001CAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A6B1BD2637403C0001CAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A6B1C42637403C0001CAF1;
+			remoteInfo = FlowerRecorder;
+		};
+		02A6B1E12637403E0001CAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A6B1BD2637403C0001CAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A6B1C42637403C0001CAF1;
+			remoteInfo = FlowerRecorder;
+		};
+		02A6B23C26375C1E0001CAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02B4C4B426372D2800FF4EDA;
+			remoteInfo = DynamicCast;
+		};
+		02A6B24E26376F1F0001CAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B4C4B326372D2800FF4EDA;
+			remoteInfo = DynamicCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02A6B268263792890001CAF1 /* Copy Libraries to Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				02A6B267263792890001CAF1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */,
+			);
+			name = "Copy Libraries to Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A6B1C82637403C0001CAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02A6B1CA2637403D0001CAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02A6B1CD2637403D0001CAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02A6B1CF2637403D0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowerRecorder.entitlements; sourceTree = "<group>"; };
+		02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A6B1D92637403E0001CAF1 /* FlowerRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerRecorderTests.swift; sourceTree = "<group>"; };
+		02A6B1DB2637403E0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A6B1E42637403E0001CAF1 /* FlowerRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerRecorderUITests.swift; sourceTree = "<group>"; };
+		02A6B1E62637403E0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A6B2092637450E0001CAF1 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bridge.h; path = FlowerRecorder/Bridge.h; sourceTree = SOURCE_ROOT; };
+		02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicCast.xcodeproj; path = DynamicCast/DynamicCast.xcodeproj; sourceTree = "<group>"; };
+		02A6B248263769E10001CAF1 /* libexport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libexport.h; sourceTree = "<group>"; };
+		02A6B249263769E60001CAF1 /* libexport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libexport.mm; sourceTree = "<group>"; };
+		02A6B25F263790620001CAF1 /* libDynamicCast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDynamicCast.dylib; path = "../../Library/Developer/Xcode/DerivedData/FlowerRecorder-dfuiqaleuqsqsictjxgumsxqtflu/Build/Products/Debug/libDynamicCast.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02A6B1C22637403C0001CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A6B1D22637403E0001CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A6B1DD2637403E0001CAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02913DA626382F010062B78B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B248263769E10001CAF1 /* libexport.h */,
+				02A6B249263769E60001CAF1 /* libexport.mm */,
+				02A6B2092637450E0001CAF1 /* Bridge.h */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+		02A6B1BC2637403C0001CAF1 = {
+			isa = PBXGroup;
+			children = (
+				02A6B1C72637403C0001CAF1 /* FlowerRecorder */,
+				02A6B1D82637403E0001CAF1 /* FlowerRecorderTests */,
+				02A6B1E32637403E0001CAF1 /* FlowerRecorderUITests */,
+				02A6B1C62637403C0001CAF1 /* Products */,
+				02A6B20B2637499E0001CAF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02A6B1C62637403C0001CAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */,
+				02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */,
+				02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02A6B1C72637403C0001CAF1 /* FlowerRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B1C82637403C0001CAF1 /* AppDelegate.swift */,
+				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
+				02A6B1CC2637403D0001CAF1 /* MainMenu.xib */,
+				02913DA626382F010062B78B /* Bridge */,
+				02A6B1CF2637403D0001CAF1 /* Info.plist */,
+				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
+				02A6B22226375C080001CAF1 /* Dependencies */,
+			);
+			path = FlowerRecorder;
+			sourceTree = "<group>";
+		};
+		02A6B1D82637403E0001CAF1 /* FlowerRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B1D92637403E0001CAF1 /* FlowerRecorderTests.swift */,
+				02A6B1DB2637403E0001CAF1 /* Info.plist */,
+			);
+			path = FlowerRecorderTests;
+			sourceTree = "<group>";
+		};
+		02A6B1E32637403E0001CAF1 /* FlowerRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B1E42637403E0001CAF1 /* FlowerRecorderUITests.swift */,
+				02A6B1E62637403E0001CAF1 /* Info.plist */,
+			);
+			path = FlowerRecorderUITests;
+			sourceTree = "<group>";
+		};
+		02A6B20B2637499E0001CAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B25F263790620001CAF1 /* libDynamicCast.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02A6B22226375C080001CAF1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */,
+			);
+			path = Dependencies;
+			sourceTree = SOURCE_ROOT;
+		};
+		02A6B23626375C1E0001CAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B23D26375C1E0001CAF1 /* libDynamicCast.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02A6B24D26376E740001CAF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02A6B1C42637403C0001CAF1 /* FlowerRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A6B1E92637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorder" */;
+			buildPhases = (
+				02A6B1C12637403C0001CAF1 /* Sources */,
+				02A6B1C22637403C0001CAF1 /* Frameworks */,
+				02A6B1C32637403C0001CAF1 /* Resources */,
+				02A6B24D26376E740001CAF1 /* Headers */,
+				02A6B268263792890001CAF1 /* Copy Libraries to Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A6B24F26376F1F0001CAF1 /* PBXTargetDependency */,
+			);
+			name = FlowerRecorder;
+			productName = FlowerRecorder;
+			productReference = 02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02A6B1D42637403E0001CAF1 /* FlowerRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A6B1EC2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderTests" */;
+			buildPhases = (
+				02A6B1D12637403E0001CAF1 /* Sources */,
+				02A6B1D22637403E0001CAF1 /* Frameworks */,
+				02A6B1D32637403E0001CAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A6B1D72637403E0001CAF1 /* PBXTargetDependency */,
+			);
+			name = FlowerRecorderTests;
+			productName = FlowerRecorderTests;
+			productReference = 02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02A6B1DF2637403E0001CAF1 /* FlowerRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A6B1EF2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderUITests" */;
+			buildPhases = (
+				02A6B1DC2637403E0001CAF1 /* Sources */,
+				02A6B1DD2637403E0001CAF1 /* Frameworks */,
+				02A6B1DE2637403E0001CAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A6B1E22637403E0001CAF1 /* PBXTargetDependency */,
+			);
+			name = FlowerRecorderUITests;
+			productName = FlowerRecorderUITests;
+			productReference = 02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02A6B1BD2637403C0001CAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = penghubingzhou;
+				TargetAttributes = {
+					02A6B1C42637403C0001CAF1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					02A6B1D42637403E0001CAF1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 02A6B1C42637403C0001CAF1;
+					};
+					02A6B1DF2637403E0001CAF1 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 02A6B1C42637403C0001CAF1;
+					};
+				};
+			};
+			buildConfigurationList = 02A6B1C02637403C0001CAF1 /* Build configuration list for PBXProject "FlowerRecorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02A6B1BC2637403C0001CAF1;
+			productRefGroup = 02A6B1C62637403C0001CAF1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 02A6B23626375C1E0001CAF1 /* Products */;
+					ProjectRef = 02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				02A6B1C42637403C0001CAF1 /* FlowerRecorder */,
+				02A6B1D42637403E0001CAF1 /* FlowerRecorderTests */,
+				02A6B1DF2637403E0001CAF1 /* FlowerRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		02A6B23D26375C1E0001CAF1 /* libDynamicCast.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libDynamicCast.dylib;
+			remoteRef = 02A6B23C26375C1E0001CAF1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A6B1C32637403C0001CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */,
+				02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A6B1D32637403E0001CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A6B1DE2637403E0001CAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A6B1C12637403C0001CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */,
+				02A6B24A263769E60001CAF1 /* libexport.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A6B1D12637403E0001CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A6B1DA2637403E0001CAF1 /* FlowerRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A6B1DC2637403E0001CAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A6B1E52637403E0001CAF1 /* FlowerRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02A6B1D72637403E0001CAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A6B1C42637403C0001CAF1 /* FlowerRecorder */;
+			targetProxy = 02A6B1D62637403E0001CAF1 /* PBXContainerItemProxy */;
+		};
+		02A6B1E22637403E0001CAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A6B1C42637403C0001CAF1 /* FlowerRecorder */;
+			targetProxy = 02A6B1E12637403E0001CAF1 /* PBXContainerItemProxy */;
+		};
+		02A6B24F26376F1F0001CAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicCast;
+			targetProxy = 02A6B24E26376F1F0001CAF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02A6B1CC2637403D0001CAF1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02A6B1CD2637403D0001CAF1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02A6B1E72637403E0001CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02A6B1E82637403E0001CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		02A6B1EA2637403E0001CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_ENTITLEMENTS = FlowerRecorder/FlowerRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				HEADER_SEARCH_PATHS = /usr/local/include/opencv4;
+				INFOPLIST_FILE = FlowerRecorder/Info.plist;
+				LD_DYLIB_INSTALL_NAME = $SRC/libDynamicCast.dylib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FlowerRecorder/Bridge.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		02A6B1EB2637403E0001CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_ENTITLEMENTS = FlowerRecorder/FlowerRecorder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				HEADER_SEARCH_PATHS = /usr/local/include/opencv4;
+				INFOPLIST_FILE = FlowerRecorder/Info.plist;
+				LD_DYLIB_INSTALL_NAME = $SRC/libDynamicCast.dylib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FlowerRecorder/Bridge.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		02A6B1ED2637403E0001CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlowerRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerRecorder.app/Contents/MacOS/FlowerRecorder";
+			};
+			name = Debug;
+		};
+		02A6B1EE2637403E0001CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlowerRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerRecorder.app/Contents/MacOS/FlowerRecorder";
+			};
+			name = Release;
+		};
+		02A6B1F02637403E0001CAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlowerRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FlowerRecorder;
+			};
+			name = Debug;
+		};
+		02A6B1F12637403E0001CAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlowerRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = FlowerRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A6B1C02637403C0001CAF1 /* Build configuration list for PBXProject "FlowerRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A6B1E72637403E0001CAF1 /* Debug */,
+				02A6B1E82637403E0001CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A6B1E92637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A6B1EA2637403E0001CAF1 /* Debug */,
+				02A6B1EB2637403E0001CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A6B1EC2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A6B1ED2637403E0001CAF1 /* Debug */,
+				02A6B1EE2637403E0001CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A6B1EF2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A6B1F02637403E0001CAF1 /* Debug */,
+				02A6B1F12637403E0001CAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02A6B1BD2637403C0001CAF1 /* Project object */;
+}
