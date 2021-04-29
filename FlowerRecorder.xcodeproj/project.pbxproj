@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023D8AE5263B15F000E42F2D /* libopencv_core.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		023D8AE6263B15F000E42F2D /* libopencv_imgcodecs.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		023D8AE7263B15F000E42F2D /* libopencv_imgproc.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1C82637403C0001CAF1 /* AppDelegate.swift */; };
 		02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CA2637403D0001CAF1 /* Assets.xcassets */; };
 		02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CC2637403D0001CAF1 /* MainMenu.xib */; };
-		02A6B1DA2637403E0001CAF1 /* FlowerRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1D92637403E0001CAF1 /* FlowerRecorderTests.swift */; };
-		02A6B1E52637403E0001CAF1 /* FlowerRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1E42637403E0001CAF1 /* FlowerRecorderUITests.swift */; };
 		02A6B24A263769E60001CAF1 /* libexport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B249263769E60001CAF1 /* libexport.mm */; };
 		02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
-		02A6B267263792890001CAF1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		02A7DB70263AA1680072E2A3 /* kbset.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A7DB6F263AA1680072E2A3 /* kbset.xib */; };
+		02A7DB72263AA2F60072E2A3 /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7DB71263AA2F60072E2A3 /* kbset.swift */; };
+		02F59FD3263AF7600010C1A1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +58,30 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02A6B267263792890001CAF1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */,
+				02F59FD3263AF7600010C1A1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */,
 			);
 			name = "Copy Libraries to Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F59FA8263AEDAD0010C1A1 /* Copy OpenCV to Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = opencv;
+			dstSubfolderSpec = 10;
+			files = (
+				023D8AE5263B15F000E42F2D /* libopencv_core.4.5.dylib in Copy OpenCV to Frameworks */,
+				023D8AE6263B15F000E42F2D /* libopencv_imgcodecs.4.5.dylib in Copy OpenCV to Frameworks */,
+				023D8AE7263B15F000E42F2D /* libopencv_imgproc.4.5.dylib in Copy OpenCV to Frameworks */,
+			);
+			name = "Copy OpenCV to Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.4.5.dylib; path = ../../../../usr/local/lib/libopencv_imgproc.4.5.dylib; sourceTree = "<group>"; };
+		023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.4.5.dylib; path = ../../../../usr/local/lib/libopencv_imgcodecs.4.5.dylib; sourceTree = "<group>"; };
+		023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.4.5.dylib; path = ../../../../usr/local/lib/libopencv_core.4.5.dylib; sourceTree = "<group>"; };
 		02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A6B1C82637403C0001CAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A6B1CA2637403D0001CAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,16 +89,14 @@
 		02A6B1CF2637403D0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowerRecorder.entitlements; sourceTree = "<group>"; };
 		02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A6B1D92637403E0001CAF1 /* FlowerRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerRecorderTests.swift; sourceTree = "<group>"; };
-		02A6B1DB2637403E0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A6B1E42637403E0001CAF1 /* FlowerRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerRecorderUITests.swift; sourceTree = "<group>"; };
-		02A6B1E62637403E0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A6B2092637450E0001CAF1 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bridge.h; path = FlowerRecorder/Bridge.h; sourceTree = SOURCE_ROOT; };
 		02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicCast.xcodeproj; path = DynamicCast/DynamicCast.xcodeproj; sourceTree = "<group>"; };
 		02A6B248263769E10001CAF1 /* libexport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libexport.h; sourceTree = "<group>"; };
 		02A6B249263769E60001CAF1 /* libexport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libexport.mm; sourceTree = "<group>"; };
 		02A6B25F263790620001CAF1 /* libDynamicCast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDynamicCast.dylib; path = "../../Library/Developer/Xcode/DerivedData/FlowerRecorder-dfuiqaleuqsqsictjxgumsxqtflu/Build/Products/Debug/libDynamicCast.dylib"; sourceTree = "<group>"; };
+		02A7DB6F263AA1680072E2A3 /* kbset.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = kbset.xib; sourceTree = "<group>"; };
+		02A7DB71263AA2F60072E2A3 /* kbset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				02A6B1C72637403C0001CAF1 /* FlowerRecorder */,
-				02A6B1D82637403E0001CAF1 /* FlowerRecorderTests */,
-				02A6B1E32637403E0001CAF1 /* FlowerRecorderUITests */,
 				02A6B1C62637403C0001CAF1 /* Products */,
 				02A6B20B2637499E0001CAF1 /* Frameworks */,
 			);
@@ -143,8 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				02A6B1C82637403C0001CAF1 /* AppDelegate.swift */,
+				02A7DB71263AA2F60072E2A3 /* kbset.swift */,
 				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
 				02A6B1CC2637403D0001CAF1 /* MainMenu.xib */,
+				02A7DB6F263AA1680072E2A3 /* kbset.xib */,
 				02913DA626382F010062B78B /* Bridge */,
 				02A6B1CF2637403D0001CAF1 /* Info.plist */,
 				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
@@ -153,27 +170,12 @@
 			path = FlowerRecorder;
 			sourceTree = "<group>";
 		};
-		02A6B1D82637403E0001CAF1 /* FlowerRecorderTests */ = {
-			isa = PBXGroup;
-			children = (
-				02A6B1D92637403E0001CAF1 /* FlowerRecorderTests.swift */,
-				02A6B1DB2637403E0001CAF1 /* Info.plist */,
-			);
-			path = FlowerRecorderTests;
-			sourceTree = "<group>";
-		};
-		02A6B1E32637403E0001CAF1 /* FlowerRecorderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				02A6B1E42637403E0001CAF1 /* FlowerRecorderUITests.swift */,
-				02A6B1E62637403E0001CAF1 /* Info.plist */,
-			);
-			path = FlowerRecorderUITests;
-			sourceTree = "<group>";
-		};
 		02A6B20B2637499E0001CAF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */,
+				023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */,
+				023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */,
 				02A6B25F263790620001CAF1 /* libDynamicCast.dylib */,
 			);
 			name = Frameworks;
@@ -217,6 +219,7 @@
 				02A6B1C32637403C0001CAF1 /* Resources */,
 				02A6B24D26376E740001CAF1 /* Headers */,
 				02A6B268263792890001CAF1 /* Copy Libraries to Frameworks */,
+				02F59FA8263AEDAD0010C1A1 /* Copy OpenCV to Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */,
+				02A7DB70263AA1680072E2A3 /* kbset.xib in Resources */,
 				02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */,
+				02A7DB72263AA2F60072E2A3 /* kbset.swift in Sources */,
 				02A6B24A263769E60001CAF1 /* libexport.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A6B1DA2637403E0001CAF1 /* FlowerRecorderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A6B1E52637403E0001CAF1 /* FlowerRecorderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,13 +531,15 @@
 				CODE_SIGN_ENTITLEMENTS = FlowerRecorder/FlowerRecorder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				HEADER_SEARCH_PATHS = /usr/local/include/opencv4;
 				INFOPLIST_FILE = FlowerRecorder/Info.plist;
-				LD_DYLIB_INSTALL_NAME = $SRC/libDynamicCast.dylib;
+				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+					"@loader_path/../Frameworks/opencv",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
@@ -555,13 +560,15 @@
 				CODE_SIGN_ENTITLEMENTS = FlowerRecorder/FlowerRecorder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				HEADER_SEARCH_PATHS = /usr/local/include/opencv4;
 				INFOPLIST_FILE = FlowerRecorder/Info.plist;
-				LD_DYLIB_INSTALL_NAME = $SRC/libDynamicCast.dylib;
+				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+					"@loader_path/../Frameworks/opencv",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";

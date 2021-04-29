@@ -17,11 +17,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var runbutton: NSButton!
     @IBOutlet weak var Browser_dst: NSButton!
     @IBOutlet weak var Browser_src: NSButton!
-    @IBOutlet weak var kbset: NSButton!
-    @IBOutlet weak var kbwindowview: NSView!
+    @IBOutlet weak var kbsetbutton: NSButton!
     
     var openPanel:NSOpenPanel?
-    var k : Double?, b : Double?
+    public static var k : Double?, b : Double?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         runbutton.alphaValue = 0.4
@@ -81,7 +80,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         openPanel!.beginSheetModal(for: window, completionHandler: savestringtotext)
     }
     
-    @IBAction func set_kbvalue(_ sender: Any) {
+    @IBAction func set_kbvalue(_ sender: NSButton) {
+        var array : NSArray?
+        var ptr : AutoreleasingUnsafeMutablePointer<NSArray?>?
+        var ptrtmp : UnsafeMutablePointer<NSArray>
     }
     
     @IBAction func runpush(_ sender: NSButton) {
