@@ -15,8 +15,8 @@
 		02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CC2637403D0001CAF1 /* MainMenu.xib */; };
 		02A6B24A263769E60001CAF1 /* libexport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B249263769E60001CAF1 /* libexport.mm */; };
 		02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
-		02A7DB70263AA1680072E2A3 /* kbset.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A7DB6F263AA1680072E2A3 /* kbset.xib */; };
-		02A7DB72263AA2F60072E2A3 /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7DB71263AA2F60072E2A3 /* kbset.swift */; };
+		02C0823F263C966000FAD1EA /* kbset.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C0823D263C966000FAD1EA /* kbset.xib */; };
+		02C08241263C968B00FAD1EA /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C08240263C968B00FAD1EA /* kbset.swift */; };
 		02F59FD3263AF7600010C1A1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -95,8 +95,8 @@
 		02A6B248263769E10001CAF1 /* libexport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libexport.h; sourceTree = "<group>"; };
 		02A6B249263769E60001CAF1 /* libexport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libexport.mm; sourceTree = "<group>"; };
 		02A6B25F263790620001CAF1 /* libDynamicCast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDynamicCast.dylib; path = "../../Library/Developer/Xcode/DerivedData/FlowerRecorder-dfuiqaleuqsqsictjxgumsxqtflu/Build/Products/Debug/libDynamicCast.dylib"; sourceTree = "<group>"; };
-		02A7DB6F263AA1680072E2A3 /* kbset.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = kbset.xib; sourceTree = "<group>"; };
-		02A7DB71263AA2F60072E2A3 /* kbset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kbset.swift; sourceTree = "<group>"; };
+		02C0823E263C966000FAD1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/kbset.xib; sourceTree = "<group>"; };
+		02C08240263C968B00FAD1EA /* kbset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kbset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,11 +157,11 @@
 		02A6B1C72637403C0001CAF1 /* FlowerRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				02A6B1C82637403C0001CAF1 /* AppDelegate.swift */,
-				02A7DB71263AA2F60072E2A3 /* kbset.swift */,
 				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
+				02C08240263C968B00FAD1EA /* kbset.swift */,
+				02A6B1C82637403C0001CAF1 /* AppDelegate.swift */,
+				02C0823D263C966000FAD1EA /* kbset.xib */,
 				02A6B1CC2637403D0001CAF1 /* MainMenu.xib */,
-				02A7DB6F263AA1680072E2A3 /* kbset.xib */,
 				02913DA626382F010062B78B /* Bridge */,
 				02A6B1CF2637403D0001CAF1 /* Info.plist */,
 				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
@@ -332,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */,
-				02A7DB70263AA1680072E2A3 /* kbset.xib in Resources */,
+				02C0823F263C966000FAD1EA /* kbset.xib in Resources */,
 				02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */,
-				02A7DB72263AA2F60072E2A3 /* kbset.swift in Sources */,
+				02C08241263C968B00FAD1EA /* kbset.swift in Sources */,
 				02A6B24A263769E60001CAF1 /* libexport.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +405,14 @@
 				02A6B1CD2637403D0001CAF1 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		02C0823D263C966000FAD1EA /* kbset.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C0823E263C966000FAD1EA /* Base */,
+			);
+			name = kbset.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

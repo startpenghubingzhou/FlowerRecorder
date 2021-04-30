@@ -17,8 +17,8 @@
                 <outlet property="Browser_dst" destination="PHS-XQ-4ic" id="UkL-bm-xgz"/>
                 <outlet property="Browser_src" destination="9qf-E8-Vkm" id="jAU-aB-Cav"/>
                 <outlet property="dst" destination="I01-XY-DPd" id="Du3-c5-G5D"/>
-                <outlet property="kbsetbutton" destination="aCx-1S-jii" id="Dfe-uv-8hj"/>
                 <outlet property="runbutton" destination="5nG-xM-p0Q" id="CMj-7f-Yp0"/>
+                <outlet property="setting" destination="BOF-NM-1cW" id="jj0-Pn-8jp"/>
                 <outlet property="src" destination="bMg-7t-yBM" id="XQv-7g-iMr"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -37,11 +37,15 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                            <menuItem title="偏好设置" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem title="偏好设置" keyEquivalent="," id="BOF-NM-1cW">
+                                <connections>
+                                    <action selector="setting_set:" target="Voe-Tx-rLC" id="vKh-qs-IuK"/>
+                                </connections>
+                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
                             <menuItem title="退出 FlowerRecorder" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
-                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                    <action selector="terminate:" target="-2" id="DRU-I4-n5K"/>
                                 </connections>
                             </menuItem>
                         </items>
@@ -78,7 +82,7 @@
                         <items>
                             <menuItem title="FlowerRecorder 帮助" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <connections>
-                                    <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
+                                    <action selector="showHelp:" target="-2" id="Mvw-68-CBC"/>
                                 </connections>
                             </menuItem>
                         </items>
@@ -164,7 +168,7 @@
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nG-xM-p0Q" userLabel="runbutton">
-                        <rect key="frame" x="288" y="42" width="81" height="32"/>
+                        <rect key="frame" x="254" y="41" width="81" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="运行" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CD9-tn-OIe" userLabel="runbutton">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -172,17 +176,6 @@
                         </buttonCell>
                         <connections>
                             <action selector="runpush:" target="Voe-Tx-rLC" id="mt2-nd-wGh"/>
-                        </connections>
-                    </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aCx-1S-jii" userLabel="runbutton">
-                        <rect key="frame" x="186" y="42" width="92" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="设置k b值" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5GL-4x-lJF" userLabel="runbutton">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" size="13" name=".PingFangSC-Regular"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="set_kbvalue:" target="Voe-Tx-rLC" id="5o4-aM-cKV"/>
                         </connections>
                     </button>
                 </subviews>

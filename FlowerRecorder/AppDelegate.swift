@@ -11,16 +11,22 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    //main window outlet
     @IBOutlet weak var window: NSWindow!
     @IBOutlet weak var dst: NSTextField!
     @IBOutlet weak var src: NSTextField!
     @IBOutlet weak var runbutton: NSButton!
     @IBOutlet weak var Browser_dst: NSButton!
     @IBOutlet weak var Browser_src: NSButton!
-    @IBOutlet weak var kbsetbutton: NSButton!
+    @IBOutlet weak var setting: NSMenuItem!
     
     var openPanel:NSOpenPanel?
-    public static var k : Double?, b : Double?
+    
+    var a : kbset = kbset(windowNibName: NSNib.Name(rawValue: "kbset"))
+    
+    var actrl : NSWindowController?
+    
+    open static var k_value : Double?, b_value : Double?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         runbutton.alphaValue = 0.4
@@ -80,10 +86,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         openPanel!.beginSheetModal(for: window, completionHandler: savestringtotext)
     }
     
-    @IBAction func set_kbvalue(_ sender: NSButton) {
-        var array : NSArray?
-        var ptr : AutoreleasingUnsafeMutablePointer<NSArray?>?
-        var ptrtmp : UnsafeMutablePointer<NSArray>
+    @IBAction func setting_set(_ sender: NSMenuItem) {
+        
+        self.actrl = (a.window?.windowController)!
+        
+        self.actrl?.showWindow(self)
+        
+        self.actrl?.window?.makeKeyAndOrderFront(self)
     }
     
     @IBAction func runpush(_ sender: NSButton) {
