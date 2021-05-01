@@ -10,31 +10,21 @@
 		023D8AE5263B15F000E42F2D /* libopencv_core.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		023D8AE6263B15F000E42F2D /* libopencv_imgcodecs.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		023D8AE7263B15F000E42F2D /* libopencv_imgproc.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B1C82637403C0001CAF1 /* AppDelegate.swift */; };
 		02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CA2637403D0001CAF1 /* Assets.xcassets */; };
 		02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CC2637403D0001CAF1 /* MainMenu.xib */; };
-		02A6B24A263769E60001CAF1 /* libexport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02A6B249263769E60001CAF1 /* libexport.mm */; };
 		02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		02ACD03E263D565A004D7326 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02ACD03C263D565A004D7326 /* Credits.rtf */; };
+		02C0662B263D5CA1001024A9 /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C06626263D5CA1001024A9 /* kbset.swift */; };
+		02C0662C263D5CA1001024A9 /* libexport.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C06627263D5CA1001024A9 /* libexport.h */; };
+		02C0662D263D5CA1001024A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C06628263D5CA1001024A9 /* AppDelegate.swift */; };
+		02C0662E263D5CA1001024A9 /* libexport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 02C06629263D5CA1001024A9 /* libexport.mm */; };
+		02C0662F263D5CA1001024A9 /* Bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C0662A263D5CA1001024A9 /* Bridge.h */; };
+		02C06633263D5D93001024A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C06632263D5D93001024A9 /* Info.plist */; };
 		02C0823F263C966000FAD1EA /* kbset.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C0823D263C966000FAD1EA /* kbset.xib */; };
-		02C08241263C968B00FAD1EA /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C08240263C968B00FAD1EA /* kbset.swift */; };
 		02F59FD3263AF7600010C1A1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02A6B1D62637403E0001CAF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02A6B1BD2637403C0001CAF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02A6B1C42637403C0001CAF1;
-			remoteInfo = FlowerRecorder;
-		};
-		02A6B1E12637403E0001CAF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02A6B1BD2637403C0001CAF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02A6B1C42637403C0001CAF1;
-			remoteInfo = FlowerRecorder;
-		};
 		02A6B23C26375C1E0001CAF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */;
@@ -83,20 +73,19 @@
 		023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.4.5.dylib; path = ../../../../usr/local/lib/libopencv_imgcodecs.4.5.dylib; sourceTree = "<group>"; };
 		023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.4.5.dylib; path = ../../../../usr/local/lib/libopencv_core.4.5.dylib; sourceTree = "<group>"; };
 		02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A6B1C82637403C0001CAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A6B1CA2637403D0001CAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A6B1CD2637403D0001CAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		02A6B1CF2637403D0001CAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowerRecorder.entitlements; sourceTree = "<group>"; };
-		02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A6B2092637450E0001CAF1 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bridge.h; path = FlowerRecorder/Bridge.h; sourceTree = SOURCE_ROOT; };
 		02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicCast.xcodeproj; path = DynamicCast/DynamicCast.xcodeproj; sourceTree = "<group>"; };
-		02A6B248263769E10001CAF1 /* libexport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libexport.h; sourceTree = "<group>"; };
-		02A6B249263769E60001CAF1 /* libexport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libexport.mm; sourceTree = "<group>"; };
 		02A6B25F263790620001CAF1 /* libDynamicCast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDynamicCast.dylib; path = "../../Library/Developer/Xcode/DerivedData/FlowerRecorder-dfuiqaleuqsqsictjxgumsxqtflu/Build/Products/Debug/libDynamicCast.dylib"; sourceTree = "<group>"; };
+		02ACD03D263D565A004D7326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		02C06626263D5CA1001024A9 /* kbset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kbset.swift; sourceTree = "<group>"; };
+		02C06627263D5CA1001024A9 /* libexport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libexport.h; sourceTree = "<group>"; };
+		02C06628263D5CA1001024A9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C06629263D5CA1001024A9 /* libexport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libexport.mm; sourceTree = "<group>"; };
+		02C0662A263D5CA1001024A9 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		02C06632263D5D93001024A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C0823E263C966000FAD1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/kbset.xib; sourceTree = "<group>"; };
-		02C08240263C968B00FAD1EA /* kbset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kbset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,33 +97,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02A6B1D22637403E0001CAF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02A6B1DD2637403E0001CAF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02913DA626382F010062B78B /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				02A6B248263769E10001CAF1 /* libexport.h */,
-				02A6B249263769E60001CAF1 /* libexport.mm */,
-				02A6B2092637450E0001CAF1 /* Bridge.h */,
-			);
-			name = Bridge;
-			sourceTree = "<group>";
-		};
 		02A6B1BC2637403C0001CAF1 = {
 			isa = PBXGroup;
 			children = (
@@ -148,8 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */,
-				02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */,
-				02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,14 +120,9 @@
 		02A6B1C72637403C0001CAF1 /* FlowerRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
-				02C08240263C968B00FAD1EA /* kbset.swift */,
-				02A6B1C82637403C0001CAF1 /* AppDelegate.swift */,
-				02C0823D263C966000FAD1EA /* kbset.xib */,
-				02A6B1CC2637403D0001CAF1 /* MainMenu.xib */,
-				02913DA626382F010062B78B /* Bridge */,
-				02A6B1CF2637403D0001CAF1 /* Info.plist */,
-				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
+				02C06631263D5D6A001024A9 /* Xib Files */,
+				02C06625263D5C7E001024A9 /* Swift and Bridge Code */,
+				02ACD03F263D5B1A004D7326 /* Resources */,
 				02A6B22226375C080001CAF1 /* Dependencies */,
 			);
 			path = FlowerRecorder;
@@ -197,6 +155,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		02ACD03F263D5B1A004D7326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
+				02ACD03C263D565A004D7326 /* Credits.rtf */,
+				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
+				02C06632263D5D93001024A9 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		02C06625263D5C7E001024A9 /* Swift and Bridge Code */ = {
+			isa = PBXGroup;
+			children = (
+				02C06628263D5CA1001024A9 /* AppDelegate.swift */,
+				02C06626263D5CA1001024A9 /* kbset.swift */,
+				02C06630263D5CF5001024A9 /* Bridge */,
+			);
+			name = "Swift and Bridge Code";
+			sourceTree = "<group>";
+		};
+		02C06630263D5CF5001024A9 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				02C0662A263D5CA1001024A9 /* Bridge.h */,
+				02C06627263D5CA1001024A9 /* libexport.h */,
+				02C06629263D5CA1001024A9 /* libexport.mm */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+		02C06631263D5D6A001024A9 /* Xib Files */ = {
+			isa = PBXGroup;
+			children = (
+				02C0823D263C966000FAD1EA /* kbset.xib */,
+				02A6B1CC2637403D0001CAF1 /* MainMenu.xib */,
+			);
+			name = "Xib Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -204,6 +202,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C0662C263D5CA1001024A9 /* libexport.h in Headers */,
+				02C0662F263D5CA1001024A9 /* Bridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,42 +231,6 @@
 			productReference = 02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		02A6B1D42637403E0001CAF1 /* FlowerRecorderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02A6B1EC2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderTests" */;
-			buildPhases = (
-				02A6B1D12637403E0001CAF1 /* Sources */,
-				02A6B1D22637403E0001CAF1 /* Frameworks */,
-				02A6B1D32637403E0001CAF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02A6B1D72637403E0001CAF1 /* PBXTargetDependency */,
-			);
-			name = FlowerRecorderTests;
-			productName = FlowerRecorderTests;
-			productReference = 02A6B1D52637403E0001CAF1 /* FlowerRecorderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		02A6B1DF2637403E0001CAF1 /* FlowerRecorderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02A6B1EF2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderUITests" */;
-			buildPhases = (
-				02A6B1DC2637403E0001CAF1 /* Sources */,
-				02A6B1DD2637403E0001CAF1 /* Frameworks */,
-				02A6B1DE2637403E0001CAF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02A6B1E22637403E0001CAF1 /* PBXTargetDependency */,
-			);
-			name = FlowerRecorderUITests;
-			productName = FlowerRecorderUITests;
-			productReference = 02A6B1E02637403E0001CAF1 /* FlowerRecorderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -279,14 +243,6 @@
 				TargetAttributes = {
 					02A6B1C42637403C0001CAF1 = {
 						CreatedOnToolsVersion = 9.3;
-					};
-					02A6B1D42637403E0001CAF1 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 02A6B1C42637403C0001CAF1;
-					};
-					02A6B1DF2637403E0001CAF1 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 02A6B1C42637403C0001CAF1;
 					};
 				};
 			};
@@ -310,8 +266,6 @@
 			projectRoot = "";
 			targets = (
 				02A6B1C42637403C0001CAF1 /* FlowerRecorder */,
-				02A6B1D42637403E0001CAF1 /* FlowerRecorderTests */,
-				02A6B1DF2637403E0001CAF1 /* FlowerRecorderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -334,20 +288,8 @@
 				02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */,
 				02C0823F263C966000FAD1EA /* kbset.xib in Resources */,
 				02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02A6B1D32637403E0001CAF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02A6B1DE2637403E0001CAF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				02C06633263D5D93001024A9 /* Info.plist in Resources */,
+				02ACD03E263D565A004D7326 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,39 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A6B1C92637403C0001CAF1 /* AppDelegate.swift in Sources */,
-				02C08241263C968B00FAD1EA /* kbset.swift in Sources */,
-				02A6B24A263769E60001CAF1 /* libexport.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02A6B1D12637403E0001CAF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02A6B1DC2637403E0001CAF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				02C0662D263D5CA1001024A9 /* AppDelegate.swift in Sources */,
+				02C0662B263D5CA1001024A9 /* kbset.swift in Sources */,
+				02C0662E263D5CA1001024A9 /* libexport.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02A6B1D72637403E0001CAF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02A6B1C42637403C0001CAF1 /* FlowerRecorder */;
-			targetProxy = 02A6B1D62637403E0001CAF1 /* PBXContainerItemProxy */;
-		};
-		02A6B1E22637403E0001CAF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02A6B1C42637403C0001CAF1 /* FlowerRecorder */;
-			targetProxy = 02A6B1E12637403E0001CAF1 /* PBXContainerItemProxy */;
-		};
 		02A6B24F26376F1F0001CAF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DynamicCast;
@@ -405,6 +323,14 @@
 				02A6B1CD2637403D0001CAF1 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		02ACD03C263D565A004D7326 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02ACD03D263D565A004D7326 /* Base */,
+			);
+			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		02C0823D263C966000FAD1EA /* kbset.xib */ = {
@@ -589,84 +515,6 @@
 			};
 			name = Release;
 		};
-		02A6B1ED2637403E0001CAF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = FlowerRecorderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerRecorder.app/Contents/MacOS/FlowerRecorder";
-			};
-			name = Debug;
-		};
-		02A6B1EE2637403E0001CAF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = FlowerRecorderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerRecorder.app/Contents/MacOS/FlowerRecorder";
-			};
-			name = Release;
-		};
-		02A6B1F02637403E0001CAF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = FlowerRecorderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = FlowerRecorder;
-			};
-			name = Debug;
-		};
-		02A6B1F12637403E0001CAF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = FlowerRecorderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = as.penghubingzhou.FlowerRecorderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = FlowerRecorder;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,24 +532,6 @@
 			buildConfigurations = (
 				02A6B1EA2637403E0001CAF1 /* Debug */,
 				02A6B1EB2637403E0001CAF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02A6B1EC2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02A6B1ED2637403E0001CAF1 /* Debug */,
-				02A6B1EE2637403E0001CAF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02A6B1EF2637403E0001CAF1 /* Build configuration list for PBXNativeTarget "FlowerRecorderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02A6B1F02637403E0001CAF1 /* Debug */,
-				02A6B1F12637403E0001CAF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

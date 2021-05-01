@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02A6B1D42637403E0001CAF1"
-               BuildableName = "FlowerRecorderTests.xctest"
-               BlueprintName = "FlowerRecorderTests"
-               ReferencedContainer = "container:FlowerRecorder.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "02A6B1DF2637403E0001CAF1"
-               BuildableName = "FlowerRecorderUITests.xctest"
-               BlueprintName = "FlowerRecorderUITests"
-               ReferencedContainer = "container:FlowerRecorder.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
