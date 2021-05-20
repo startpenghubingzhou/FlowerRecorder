@@ -19,7 +19,4 @@ extern void myfunc();
 + (int)exec: (int)argc withargv: (char**)argv{
     return cast(argc, argv);
 }
-+ (void)test{
-    myfunc();
-}
 @end

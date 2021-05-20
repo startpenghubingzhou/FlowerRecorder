@@ -13,7 +13,6 @@
 
 @interface DynamicCast : NSObject
 + (int)exec: (int)argc withargv: (char**)argv;
-+ (void)test;
 @end
 
 #endif /* libexport_h */

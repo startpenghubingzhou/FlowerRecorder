@@ -29,8 +29,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     open static var k_value : Double?, b_value : Double?
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        runbutton.alphaValue = 0.4
-        runbutton.isEnabled = false
+        //runbutton.alphaValue = 0.4
+        //runbutton.isEnabled = false
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

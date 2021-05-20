@@ -11,9 +11,7 @@
 		023D8AE6263B15F000E42F2D /* libopencv_imgcodecs.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		023D8AE7263B15F000E42F2D /* libopencv_imgproc.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CA2637403D0001CAF1 /* Assets.xcassets */; };
-		02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CC2637403D0001CAF1 /* MainMenu.xib */; };
 		02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
-		02ACD03E263D565A004D7326 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02ACD03C263D565A004D7326 /* Credits.rtf */; };
 		02C0662B263D5CA1001024A9 /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C06626263D5CA1001024A9 /* kbset.swift */; };
 		02C0662C263D5CA1001024A9 /* libexport.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C06627263D5CA1001024A9 /* libexport.h */; };
 		02C0662D263D5CA1001024A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C06628263D5CA1001024A9 /* AppDelegate.swift */; };
@@ -21,6 +19,8 @@
 		02C0662F263D5CA1001024A9 /* Bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C0662A263D5CA1001024A9 /* Bridge.h */; };
 		02C06633263D5D93001024A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C06632263D5D93001024A9 /* Info.plist */; };
 		02C0823F263C966000FAD1EA /* kbset.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C0823D263C966000FAD1EA /* kbset.xib */; };
+		02F5325B2656F00800068854 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F532592656F00800068854 /* MainMenu.xib */; };
+		02F5325E2656F05C00068854 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02F5325C2656F05C00068854 /* Credits.rtf */; };
 		02F59FD3263AF7600010C1A1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 02B4C4B326372D2800FF4EDA;
 			remoteInfo = DynamicCast;
+		};
+		02F532572656F00300068854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02897809263D7CDA0047C759;
+			remoteInfo = test;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -74,11 +81,9 @@
 		023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.4.5.dylib; path = ../../../../usr/local/lib/libopencv_core.4.5.dylib; sourceTree = "<group>"; };
 		02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A6B1CA2637403D0001CAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		02A6B1CD2637403D0001CAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowerRecorder.entitlements; sourceTree = "<group>"; };
 		02A6B23526375C1E0001CAF1 /* DynamicCast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicCast.xcodeproj; path = DynamicCast/DynamicCast.xcodeproj; sourceTree = "<group>"; };
 		02A6B25F263790620001CAF1 /* libDynamicCast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDynamicCast.dylib; path = "../../Library/Developer/Xcode/DerivedData/FlowerRecorder-dfuiqaleuqsqsictjxgumsxqtflu/Build/Products/Debug/libDynamicCast.dylib"; sourceTree = "<group>"; };
-		02ACD03D263D565A004D7326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 		02C06626263D5CA1001024A9 /* kbset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kbset.swift; sourceTree = "<group>"; };
 		02C06627263D5CA1001024A9 /* libexport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libexport.h; sourceTree = "<group>"; };
 		02C06628263D5CA1001024A9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +91,8 @@
 		02C0662A263D5CA1001024A9 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		02C06632263D5D93001024A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C0823E263C966000FAD1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/kbset.xib; sourceTree = "<group>"; };
+		02F5325A2656F00800068854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02F5325D2656F05C00068854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = FlowerRecorder/Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				02A6B23D26375C1E0001CAF1 /* libDynamicCast.dylib */,
+				02F532582656F00300068854 /* test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
-				02ACD03C263D565A004D7326 /* Credits.rtf */,
 				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
 				02C06632263D5D93001024A9 /* Info.plist */,
+				02F5325C2656F05C00068854 /* Credits.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				02C0823D263C966000FAD1EA /* kbset.xib */,
-				02A6B1CC2637403D0001CAF1 /* MainMenu.xib */,
+				02F532592656F00800068854 /* MainMenu.xib */,
 			);
 			name = "Xib Files";
 			sourceTree = "<group>";
@@ -278,6 +286,13 @@
 			remoteRef = 02A6B23C26375C1E0001CAF1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		02F532582656F00300068854 /* test */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = test;
+			remoteRef = 02F532572656F00300068854 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -285,11 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F5325E2656F05C00068854 /* Credits.rtf in Resources */,
 				02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */,
+				02F5325B2656F00800068854 /* MainMenu.xib in Resources */,
 				02C0823F263C966000FAD1EA /* kbset.xib in Resources */,
-				02A6B1CE2637403D0001CAF1 /* MainMenu.xib in Resources */,
 				02C06633263D5D93001024A9 /* Info.plist in Resources */,
-				02ACD03E263D565A004D7326 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,28 +332,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		02A6B1CC2637403D0001CAF1 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02A6B1CD2637403D0001CAF1 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		02ACD03C263D565A004D7326 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02ACD03D263D565A004D7326 /* Base */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
 		02C0823D263C966000FAD1EA /* kbset.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				02C0823E263C966000FAD1EA /* Base */,
 			);
 			name = kbset.xib;
+			sourceTree = "<group>";
+		};
+		02F532592656F00800068854 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F5325A2656F00800068854 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		02F5325C2656F05C00068854 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F5325D2656F05C00068854 /* Base */,
+			);
+			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
