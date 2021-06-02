@@ -20,3 +20,7 @@ Of course. Fow now this application is still buggy and have some more issues to 
 @[startpenghubingzhou](https://github.com/startpenghubingzhou/) for [DynamicCast](https://github.com/startpenghubingzhou/DynamicCast)  and maintaining
 
 @NWAFU for special  thanks
+
+## License
+
+This project observes BSD3 license.
