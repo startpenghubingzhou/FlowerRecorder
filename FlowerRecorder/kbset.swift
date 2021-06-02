@@ -13,6 +13,7 @@ class kbset: NSWindowController {
     @IBOutlet weak var CancelButton: NSButton!
     @IBOutlet weak var k_text: NSTextField!
     @IBOutlet weak var b_text: NSTextField!
+    @IBOutlet weak var t_text: NSTextField!
     
     convenience required init?(coder: NSCoder) {
         self.init(coder: coder)
@@ -20,14 +21,12 @@ class kbset: NSWindowController {
     
     override func windowDidLoad() {
         super.windowDidLoad()
-        
-        k_text.focusRingType = NSFocusRingType.exterior
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
     
     @IBAction func save_and_exit(_ sender: Any) {
-        AppDelegate.k_value = Double((k_text.placeholderString)!)
-        AppDelegate.b_value = Double((b_text.placeholderString)!)
+        AppDelegate.k_value = Double(k_text.stringValue)
+        AppDelegate.b_value = Double(b_text.stringValue)
+        AppDelegate.t_value = Double(t_text.stringValue)
         exit()
     }
     

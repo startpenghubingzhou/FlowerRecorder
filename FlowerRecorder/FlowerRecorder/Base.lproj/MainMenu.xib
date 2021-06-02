@@ -17,6 +17,8 @@
                 <outlet property="Browser_dst" destination="PHS-XQ-4ic" id="UkL-bm-xgz"/>
                 <outlet property="Browser_src" destination="9qf-E8-Vkm" id="jAU-aB-Cav"/>
                 <outlet property="dst" destination="I01-XY-DPd" id="Du3-c5-G5D"/>
+                <outlet property="processbar" destination="tCi-3d-HYH" id="vIN-t8-TCh"/>
+                <outlet property="processbartext" destination="xTg-mr-wfy" id="kBf-ox-SQt"/>
                 <outlet property="runbutton" destination="5nG-xM-p0Q" id="CMj-7f-Yp0"/>
                 <outlet property="setting" destination="BOF-NM-1cW" id="jj0-Pn-8jp"/>
                 <outlet property="src" destination="bMg-7t-yBM" id="XQv-7g-iMr"/>
@@ -30,13 +32,20 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="FlowerRecorder" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="关于FlowerRecorder" id="5kV-Vb-QxS">
+                            <menuItem title="查看数据" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
-                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="OIp-zw-bfp"/>
+                                    <action selector="open_datawindow:" target="Voe-Tx-rLC" id="IP8-5K-zY9"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="关于FlowerRecorder" id="PG2-2z-EJc">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="Mof-r2-H8L"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Wh5-Jd-Y0y"/>
                             <menuItem title="偏好设置" keyEquivalent="," id="BOF-NM-1cW">
                                 <connections>
                                     <action selector="setting_set:" target="Voe-Tx-rLC" id="vKh-qs-IuK"/>
@@ -179,6 +188,19 @@
                             <action selector="runpush:" target="Voe-Tx-rLC" id="mt2-nd-wGh"/>
                         </connections>
                     </button>
+                    <progressIndicator hidden="YES" wantsLayer="YES" fixedFrame="YES" maxValue="100" indeterminate="YES" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="tCi-3d-HYH">
+                        <rect key="frame" x="136" y="19" width="385" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    </progressIndicator>
+                    <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xTg-mr-wfy">
+                        <rect key="frame" x="61" y="21" width="56" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="处理中..." id="d4E-dS-XlJ">
+                            <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <point key="canvasLocation" x="-16" y="-171"/>

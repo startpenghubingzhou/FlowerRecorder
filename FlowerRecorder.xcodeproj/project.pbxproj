@@ -10,6 +10,7 @@
 		023D8AE5263B15F000E42F2D /* libopencv_core.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		023D8AE6263B15F000E42F2D /* libopencv_imgcodecs.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		023D8AE7263B15F000E42F2D /* libopencv_imgproc.4.5.dylib in Copy OpenCV to Frameworks */ = {isa = PBXBuildFile; fileRef = 023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		025552E22664AD7A0028741D /* Database.db in Copy DataBase to Resources */ = {isa = PBXBuildFile; fileRef = 025552DF2664AD320028741D /* Database.db */; };
 		02A6B1CB2637403D0001CAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A6B1CA2637403D0001CAF1 /* Assets.xcassets */; };
 		02A6B264263791A60001CAF1 /* libDynamicCast.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
 		02C0662B263D5CA1001024A9 /* kbset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C06626263D5CA1001024A9 /* kbset.swift */; };
@@ -19,6 +20,8 @@
 		02C0662F263D5CA1001024A9 /* Bridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C0662A263D5CA1001024A9 /* Bridge.h */; };
 		02C06633263D5D93001024A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C06632263D5D93001024A9 /* Info.plist */; };
 		02C0823F263C966000FAD1EA /* kbset.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C0823D263C966000FAD1EA /* kbset.xib */; };
+		02D7AE7F26627C9E00EE2552 /* datawindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D7AE7D26627C9E00EE2552 /* datawindow.xib */; };
+		02D7AE8226627CC800EE2552 /* datawindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D7AE8126627CC800EE2552 /* datawindow.swift */; };
 		02F5325B2656F00800068854 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F532592656F00800068854 /* MainMenu.xib */; };
 		02F5325E2656F05C00068854 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02F5325C2656F05C00068854 /* Credits.rtf */; };
 		02F59FD3263AF7600010C1A1 /* libDynamicCast.dylib in Copy Libraries to Frameworks */ = {isa = PBXBuildFile; fileRef = 02A6B25F263790620001CAF1 /* libDynamicCast.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -49,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		025552E12664AD610028741D /* Copy DataBase to Resources */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				025552E22664AD7A0028741D /* Database.db in Copy DataBase to Resources */,
+			);
+			name = "Copy DataBase to Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02A6B268263792890001CAF1 /* Copy Libraries to Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,6 +93,7 @@
 		023D8ADF263B15C500E42F2D /* libopencv_imgproc.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.4.5.dylib; path = ../../../../usr/local/lib/libopencv_imgproc.4.5.dylib; sourceTree = "<group>"; };
 		023D8AE1263B15D700E42F2D /* libopencv_imgcodecs.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.4.5.dylib; path = ../../../../usr/local/lib/libopencv_imgcodecs.4.5.dylib; sourceTree = "<group>"; };
 		023D8AE3263B15DF00E42F2D /* libopencv_core.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.4.5.dylib; path = ../../../../usr/local/lib/libopencv_core.4.5.dylib; sourceTree = "<group>"; };
+		025552DF2664AD320028741D /* Database.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Database.db; sourceTree = "<group>"; };
 		02A6B1C52637403C0001CAF1 /* FlowerRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A6B1CA2637403D0001CAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowerRecorder.entitlements; sourceTree = "<group>"; };
@@ -91,6 +106,8 @@
 		02C0662A263D5CA1001024A9 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		02C06632263D5D93001024A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C0823E263C966000FAD1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/kbset.xib; sourceTree = "<group>"; };
+		02D7AE7E26627C9E00EE2552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/datawindow.xib; sourceTree = "<group>"; };
+		02D7AE8126627CC800EE2552 /* datawindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datawindow.swift; sourceTree = "<group>"; };
 		02F5325A2656F00800068854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = FlowerRecorder/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		02F5325D2656F05C00068854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = FlowerRecorder/Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +183,7 @@
 		02ACD03F263D5B1A004D7326 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				025552DF2664AD320028741D /* Database.db */,
 				02A6B1CA2637403D0001CAF1 /* Assets.xcassets */,
 				02A6B1D02637403E0001CAF1 /* FlowerRecorder.entitlements */,
 				02C06632263D5D93001024A9 /* Info.plist */,
@@ -177,8 +195,9 @@
 		02C06625263D5C7E001024A9 /* Swift and Bridge Code */ = {
 			isa = PBXGroup;
 			children = (
-				02C06628263D5CA1001024A9 /* AppDelegate.swift */,
+				02D7AE8126627CC800EE2552 /* datawindow.swift */,
 				02C06626263D5CA1001024A9 /* kbset.swift */,
+				02C06628263D5CA1001024A9 /* AppDelegate.swift */,
 				02C06630263D5CF5001024A9 /* Bridge */,
 			);
 			name = "Swift and Bridge Code";
@@ -197,6 +216,7 @@
 		02C06631263D5D6A001024A9 /* Xib Files */ = {
 			isa = PBXGroup;
 			children = (
+				02D7AE7D26627C9E00EE2552 /* datawindow.xib */,
 				02C0823D263C966000FAD1EA /* kbset.xib */,
 				02F532592656F00800068854 /* MainMenu.xib */,
 			);
@@ -228,6 +248,7 @@
 				02A6B24D26376E740001CAF1 /* Headers */,
 				02A6B268263792890001CAF1 /* Copy Libraries to Frameworks */,
 				02F59FA8263AEDAD0010C1A1 /* Copy OpenCV to Frameworks */,
+				025552E12664AD610028741D /* Copy DataBase to Resources */,
 			);
 			buildRules = (
 			);
@@ -305,6 +326,7 @@
 				02F5325B2656F00800068854 /* MainMenu.xib in Resources */,
 				02C0823F263C966000FAD1EA /* kbset.xib in Resources */,
 				02C06633263D5D93001024A9 /* Info.plist in Resources */,
+				02D7AE7F26627C9E00EE2552 /* datawindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C0662D263D5CA1001024A9 /* AppDelegate.swift in Sources */,
+				02D7AE8226627CC800EE2552 /* datawindow.swift in Sources */,
 				02C0662B263D5CA1001024A9 /* kbset.swift in Sources */,
 				02C0662E263D5CA1001024A9 /* libexport.mm in Sources */,
 			);
@@ -338,6 +361,14 @@
 				02C0823E263C966000FAD1EA /* Base */,
 			);
 			name = kbset.xib;
+			sourceTree = "<group>";
+		};
+		02D7AE7D26627C9E00EE2552 /* datawindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02D7AE7E26627C9E00EE2552 /* Base */,
+			);
+			name = datawindow.xib;
 			sourceTree = "<group>";
 		};
 		02F532592656F00800068854 /* MainMenu.xib */ = {
